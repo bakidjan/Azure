@@ -10,9 +10,9 @@ $location="FranceCentral"
 $namesnetfe="snet-fe-$name"
 $namesnetbe="snet-be-$name"
 $namevnet="vnet-$name"
-$prefixvnet="10.4.0.0/22"
-$prefixsnetfe="10.4.0.0/24"
-$prefixsnetbe="10.4.1.0/24"
+$prefixvnet="10.3.0.0/22"
+$prefixsnetfe="10.3.0.0/24"
+$prefixsnetbe="10.3.1.0/24"
 $namensg="nsg-be-$name"
 # Créer son groupe de ressources
 New-AzResourceGroup -Location $location -Name $rg
